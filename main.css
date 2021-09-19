@@ -1,0 +1,110 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  padding: 2em;
+
+  background-color: rgb(207, 192, 192);
+  margin: 2rem;
+}
+
+div {
+  padding: 5px;
+}
+
+.heading {
+  display: inline;
+  margin: 1rem 1rem;
+}
+
+.description {
+  display: block;
+  margin: 1rem;
+}
+
+label {
+  display: inline-block;
+  color: #4caf50;
+  padding: 5px;
+
+  font-size: larger;
+  margin: auto;
+}
+.BAcss {
+  display: flex;
+  flex-direction: column;
+}
+
+.BAcss label {
+  width: 50vh;
+  padding: 0.5rem;
+}
+#sectionName label {
+  font-size: larger;
+  font-style: bold;
+}
+input {
+  width: 50vh;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  border: 2px solid red;
+  border-radius: 4px;
+
+  background-color: #3cbc8d;
+  color: white;
+}
+
+button {
+  display: inline-block;
+  width: 150px;
+
+  text-align: center;
+
+  font-size: 16px;
+  padding: 9px 10px;
+  margin: 5px;
+  border-radius: 4px;
+
+  background-color: #ccf1cd;
+  color: black;
+  border: 2px solid #4caf50;
+
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: black;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+
+  text-align: center;
+
+  width: 50vh;
+
+  padding: 1px;
+  margin: 1rem;
+
+  background-color: #04aa6d;
+  color: white;
+}
+
+th,
+td {
+  padding: 1px;
+  text-align: left;
+
+  border-bottom: 1px solid #ddd;
+}
